@@ -11,7 +11,7 @@ function Header(){
 
   return(
     <header className="w-screen p-5 bg-sky-600 text-white">
-      <div className="flex justify-between">
+      <div className="flex justify-between items-center">
         <div>
           <h1>AirplaneToGo.com</h1>
         </div>
