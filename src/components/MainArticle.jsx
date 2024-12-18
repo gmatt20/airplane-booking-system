@@ -32,8 +32,10 @@ function MainArticle(){
   return(
     <>
       <main className="m-5">
-          <h1>Popular flights near you</h1>
+        <div className="mb-3">
+          <h1 className="font-bold text-2xl">Trending Flights</h1>
           <p>Domestic and international flights</p>
+        </div>
           <Card destinations = {trendingDestinations}/>
       </main>
     </>
