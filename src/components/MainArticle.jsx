@@ -5,27 +5,27 @@ function MainArticle(){
     {
       city: "Orlando",
       price: 174,
-      img: "/public/orlando.jpg",
+      img: "/orlando.jpg",
     },
     {
       city: "Las Vegas",
       price: 218,
-      img: "/public/lasvegas.jpg",
+      img: "/lasvegas.jpg",
     },
     {
       city: "New York",
       price: 491,
-      img: "/public/newyork.jpg",
+      img: "/newyork.jpg",
     },
     {
       city: "Atlanta",
       price: 153,
-      img: "/public/atlanta.jpg",
+      img: "/atlanta.jpg",
     },
     {
       city: "Tokyo",
       price: 223,
-      img: "/public/tokyo.jpg",
+      img: "/tokyo.jpg",
     },
   ];
 
