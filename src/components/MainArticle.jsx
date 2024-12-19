@@ -32,11 +32,31 @@ function MainArticle(){
       price: 223,
       img: "/tokyo.jpg",
     },
+    {
+      city: "Mexico City",
+      price: 200,
+      img: "/cdmx.jpg",
+    },
+    {
+      city: "Guadalajara",
+      price: 200,
+      img: "/guadalajara.jpg",
+    },
+    {
+      city: "Monterrey",
+      price: 300,
+      img: "/monterrey.jpg",
+    },
+    {
+      city: "Cancun",
+      price: 250,
+      img: "/cancun.jpg",
+    },
   ];
 
   return(
     <>
-      <main className="m-5">
+      <main className="m-5 lg:mx-40">
        <Title titles = {title}></Title>
         <Card destinations = {trendingDestinations}/>
       </main>
