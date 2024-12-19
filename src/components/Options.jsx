@@ -2,8 +2,6 @@ import { Link, useLocation } from "react-router-dom";
 
 function Options( {buttonLabels} ){
   const location = useLocation();
-
-  console.log(location);
   
   return(
     <>
