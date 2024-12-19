@@ -1,10 +1,11 @@
 import Header from "../components/Header";
+import Seats from "../components/Seats";
 
 function AvailableSeats(){
   return(
     <>
       <Header></Header>
-      <h1>Available Seats</h1>
+      <Seats></Seats>
     </>
   );
 }
