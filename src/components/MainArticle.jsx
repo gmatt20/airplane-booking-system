@@ -1,6 +1,11 @@
 import Card from "./Card.jsx";
+import Title from "./Title.jsx";
 
 function MainArticle(){
+  const title = {
+    title: "Trending Flights",
+    subtitle: "Domestic and international flights"
+  };
   const trendingDestinations = [
     {
       city: "Orlando",
@@ -32,11 +37,8 @@ function MainArticle(){
   return(
     <>
       <main className="m-5">
-        <div className="mb-3">
-          <h1 className="font-bold text-2xl">Trending Flights</h1>
-          <p>Domestic and international flights</p>
-        </div>
-          <Card destinations = {trendingDestinations}/>
+       <Title titles = {title}></Title>
+        <Card destinations = {trendingDestinations}/>
       </main>
     </>
   );
