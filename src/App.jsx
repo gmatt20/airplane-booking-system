@@ -3,7 +3,7 @@ import Home from "./pages/Home.jsx";
 import AllSeats from "./pages/AllSeats.jsx";
 import ChangeSeats from "./pages/ChangeSeat.jsx";
 import CancelSeats from "./pages/CancelSeat.jsx";
-import BookSeats from "./pages/BookSeat.jsx";
+import BookSeats from "./pages/BookSeats.jsx";
 import AvailableSeats from "./pages/AvailableSeats.jsx";
 
 function App() {

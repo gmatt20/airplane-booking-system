@@ -1,14 +1,14 @@
 import Header from "../components/Header";
-import Seats from "../components/Seats";
 import Title from "../components/Title";
+import Seats from "../components/Seats";
 import Footer from "../components/Footer";
 
-function AvailableSeats(){
+function BookSeats(){
   const title = {
-    title: "All Available Seats",
-    subtitle: "All of the available seats are in green."
+    title: "Book a Seat",
+    subtitle: "Please choose a seat to reserve.",
   };
-  
+
   return(
     <>
       <Header></Header>
@@ -23,4 +23,4 @@ function AvailableSeats(){
   );
 }
 
-export default AvailableSeats;
+export default BookSeats;

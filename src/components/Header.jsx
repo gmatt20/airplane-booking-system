@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import Options from './Options.jsx';
+import Logo from './Logo.jsx';
 
 function Header(){
 
@@ -29,11 +29,7 @@ function Header(){
   return(
     <header className="w-screen p-5 bg-sky-700 text-white">
       <div className="flex justify-between items-center flex-wrap">
-        <div className="">
-          <Link to="/home">
-            <h1 className="text-3xl font-extrabold">AirplaneToGo.com</h1>
-          </Link>
-        </div>
+        <Logo></Logo>
         <div>
           <Options buttonLabels = {buttonLabelsArr}/>
         </div>
