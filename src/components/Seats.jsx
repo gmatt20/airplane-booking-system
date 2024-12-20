@@ -18,14 +18,15 @@ function Seats(){
   }
 
 function seatLogic(seatId) {
-  if(location.pathname == "/cancelseats"){
+  if(location.pathname == "/bookseats"){
     setSeats((prevSeats) =>
     prevSeats.map((seat) => {
       if (seat.id === seatId) {
         if (seat.status === true) {
           console.log(`Booking seat ${seatId}...`);
           return { ...seat, status: false };
-        } else {
+        } 
+        else {
           console.log(`Cancelling seat ${seatId}...`);
           return { ...seat, status: true };
         }
@@ -35,6 +36,7 @@ function seatLogic(seatId) {
     })
   );
   }
+
 }
 
   return(

@@ -5,7 +5,9 @@
 - [x] Create UI for AllSeats pages
 - [x] Display a cool airplane UI that shows all seats status
 - [x] Add Mexican cities
-- [ ] Program booking logic
+- [x] Program booking logic
+- [ ] Program canceling logic
+- [ ] Program change logic
 - [ ] Improve UI
 
 ### Website Inspiration
