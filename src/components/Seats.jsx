@@ -19,6 +19,7 @@ function Seats(){
 
 function seatLogic(seatId) {
   if(location.pathname == "/bookseats"){
+    // prevSeats contains all the current seats data in seats variable. React knows "prevSeats" is actually all the seats from seats variable. Cool!
     setSeats((prevSeats) =>
     prevSeats.map((seat) => {
       if (seat.id === seatId) {
